@@ -1,0 +1,30 @@
+{
+    "name": "TEMPLATE_NAME",
+    "emitLegacyScripts": false,
+    "tree": {
+      "$className": "DataModel",
+
+      "ReplicatedStorage": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/Shared",
+        "Client": {
+          "$path": "src/Client"
+        },
+        "Modules": {
+            "$ignoreUnknownInstances": true,
+            "$path": "src/Modules",
+
+            "Packages": {
+                "$path": "Packages"
+            }
+        }
+      },
+      "ServerScriptService": {
+        "$path": "src/Server"
+      },
+
+      "ServerStorage": {
+        "$ignoreUnknownInstances": true
+      }
+    }
+  }
