@@ -7,7 +7,7 @@
 * The lune scripts do the following
     * `build` will sync asphalt, build the project and output it to `dev.rbxl`,
     * `dev` will do the same, but it will also open `dev.rbxl`, aswell as serve rojo,
-    * `deploy` will run `mantle deploy` and publish to the game specified. **You must setup mantle.yml with the group/user id, aswell as the correct label in order for this to work. Otherwise it simply will not.**
+    * `deploy` will run `mantle deploy` and publish to the game specified. **You must setup `mantle.yml` with the group/user id, aswell as the correct label in order for this to work. Otherwise it simply will not.**
 
 
 This isn't required, but you should replace **TEMPLATE_NAME** with the project name within `default.project.json`.
