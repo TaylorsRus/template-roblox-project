@@ -6,4 +6,4 @@ realm = "shared"
 private = true
 
 [dependencies]
-Fusion = fusion = "elttob/fusion@0.3.0"
+Fusion = "elttob/fusion@0.3.0"
