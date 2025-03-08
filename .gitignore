@@ -1,6 +1,14 @@
+# Temp files
+.asphalt-debug
 
-/Template Roblox Project.rbxlx
-/*.rbxlx.lock
-/*.rbxl.lock
+# Local config
+settings.json
+selene.toml
+.env
 
+# Artifacts
 /Packages
+/ServerPackages
+**._asphalt.luau
+**.rbxl
+**.rbxl.lock
