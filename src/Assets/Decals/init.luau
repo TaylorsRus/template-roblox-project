@@ -1,0 +1,2 @@
+local Decals = {}
+return Decals
