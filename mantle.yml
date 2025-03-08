@@ -1,0 +1,20 @@
+owner:
+  group: 0
+
+state: local
+
+environments:
+  - label: dev
+    branches: ["**"]
+    targetNamePrefix: environmentLabel
+
+target:
+  experience:
+    configuration:
+      enableStudioAccessToApis: true
+    places:
+      start:
+        file: dev.rbxl
+        configuration:
+          name: TEMPLATE_NAME
+          description: TEMPLATE_DESCRIPTION
