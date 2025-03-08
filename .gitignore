@@ -9,6 +9,7 @@ selene.toml
 # Artifacts
 /Packages
 /ServerPackages
+sourcemap.json
 **._asphalt.luau
 **.rbxl
 **.rbxl.lock
