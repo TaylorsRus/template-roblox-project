@@ -3,6 +3,7 @@ name = "marti/template-roblox-project"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+private = true
 
 [dependencies]
 Fusion = fusion = "elttob/fusion@0.3.0"
