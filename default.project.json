@@ -4,7 +4,7 @@
     "tree": {
         "$className": "DataModel",
         "Workspace": {"$properties": {"StreamingEnabled": true}},
-        "Players": {"$properties": {"CharacterAutoLoads": false}},
+        "Players": {"$properties": {"CharacterAutoLoads": true}},
         "Lighting": {"$properties": {"GlobalShadows": true, "Technology": "Future"}},
         "ReplicatedStorage": {
             "$path": "src/Shared",
