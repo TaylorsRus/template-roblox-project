@@ -7,3 +7,4 @@ private = true
 
 [dependencies]
 Fusion = "elttob/fusion@0.3.0"
+UILabs = "pepeeltoro41/ui-labs@2.3.8"
