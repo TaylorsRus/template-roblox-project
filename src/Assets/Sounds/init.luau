@@ -1,3 +1,5 @@
+local _Asphalt = require(script.Parent._asphalt)
+
 local function _create(
 	ContentId: string,
 	Properties: {
