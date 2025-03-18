@@ -6,6 +6,10 @@ settings.json
 selene.toml
 .env
 
+# Testing
+src/Modules/Stories
+
+
 # Artifacts
 /Packages
 /ServerPackages
