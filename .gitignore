@@ -9,11 +9,10 @@ selene.toml
 # Testing
 src/Modules/Stories
 
-
 # Artifacts
 /Packages
 /ServerPackages
+src/Assets/_asphalt.luau
 sourcemap.json
-**._asphalt.luau
 **.rbxl
 **.rbxl.lock
