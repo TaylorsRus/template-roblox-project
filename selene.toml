@@ -1,5 +1,0 @@
-std = "roblox"
-
-[lints]
-shadowing = "allow"
-multiple_statements = "allow"
