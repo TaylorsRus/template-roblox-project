@@ -1,18 +1,15 @@
-# Temp files
-.asphalt-debug
+#Too volatile
+sourcemap.json
 
-# Local config
+#Local config
 settings.json
-selene.toml
 .env
 
-# Testing
-src/Modules/Stories
-
-# Artifacts
+#Artifacts
+src/Assets/_asphalt.luau
+.asphalt-debug
+/dist
 /Packages
 /ServerPackages
-src/Assets/_asphalt.luau
-sourcemap.json
-**.rbxl
-**.rbxl.lock
+*.lock
+*.rbxl
