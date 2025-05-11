@@ -12,7 +12,8 @@
             "Assets": {"$path": "src/Assets"},
             "Events": {"$path": "src/Events"},
             "Modules": {"$path": "src/Modules", "Packages": {"$path": "Packages"}},
-            "Data": {"$path": "src/Data"}
+            "Data": {"$path": "src/Data"},
+            "Ui": {"$path": "src/Ui"}
         },
         "ServerScriptService": {"$path": "src/Server"},
         "ServerStorage": {"$path": "src/Storage"},
