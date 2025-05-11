@@ -1,5 +1,17 @@
 {
+    "languageMode": "strict",
     "lint": {
       "*": true,
       "LocalShadow": false
     },
+    "aliases": {
+      "Packages": "Packages",
+      "Assets": "src/Assets",
+      "Storage": "src/Storage",
+      "Utils": "src/Utils",
+      "Events": "src/Events",
+      "Ui": "src/Ui",
+      "Hooks": "src/Ui/Hooks",
+      "Components": "src/Ui/Components"
+    }
+  }
