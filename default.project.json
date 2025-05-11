@@ -9,13 +9,13 @@
         "ReplicatedStorage": {
             "$path": "src/Shared",
             "Client": {"$path": "src/Client"},
+            "Server": {"$path": "src/Server"},
             "Assets": {"$path": "src/Assets"},
             "Events": {"$path": "src/Events"},
             "Modules": {"$path": "src/Modules", "Packages": {"$path": "Packages"}},
             "Data": {"$path": "src/Data"},
             "Ui": {"$path": "src/Ui"}
         },
-        "ServerScriptService": {"$path": "src/Server"},
         "ServerStorage": {"$path": "src/Storage"},
         "StarterPlayer": {"$properties": {"CameraMinZoomDistance": 0.5, "CameraMaxZoomDistance": 0.5},
             "StarterCharacterScripts": {
