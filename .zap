@@ -1,2 +1,2 @@
-opt client_output = "src/Events/Client.luau"
-opt server_output = "src/Events/Server.luau"
+opt client_output = "src/Events/ClientEvents.luau"
+opt server_output = "src/Events/ServerEvents.luau"
