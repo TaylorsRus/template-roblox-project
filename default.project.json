@@ -13,11 +13,9 @@
       "Client": { "$path": "src/Client" },
       "Server": { "$path": "src/Server" },
       "Assets": { "$path": "src/Assets" },
+      "Packages": { "$path": "Packages" },
       "Events": { "$path": "src/Events" },
-      "Modules": {
-        "$path": "src/Modules",
-        "Packages": { "$path": "Packages" }
-      },
+      "Modules": { "$path": "src/Modules" },
       "Data": { "$path": "src/Data" },
       "Ui": { "$path": "src/Ui" },
       "Utils": { "$path": "src/Utils" }
