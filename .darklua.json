@@ -1,0 +1,25 @@
+{
+  "process": [
+    {
+      "current": {
+        "name": "path",
+        "sources": {
+          "@Packages": "Packages/",
+          "@Assets": "src/Assets",
+          "@Storage": "src/Storage",
+          "@Utils": "src/Utils",
+          "@Events": "src/Events",
+          "@Ui": "src/Ui",
+          "@Hooks": "src/Ui/Hooks",
+          "@Components": "src/Ui/Components"
+        }
+      },
+      "rule": "convert_require",
+      "target": {
+        "name": "roblox",
+        "rojo_sourcemap": "sourcemap.json",
+        "indexing_style": "wait_for_child"
+      }
+    }
+  ]
+}
