@@ -8,6 +8,7 @@ settings.json
 #Artifacts
 src/Assets/_asphalt.luau
 .asphalt-debug
+build.project.json
 /dist
 /Packages
 /ServerPackages
