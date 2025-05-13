@@ -1,0 +1,38 @@
+owner:
+  group: 0
+
+state: local
+
+environments:
+  - label: dev
+    branches: [main]
+    targetNamePrefix: environmentLabel
+    targetAccess: private
+    targetOverrides:
+      places:
+        start:
+          configuration:
+            description: DEV ENV,
+
+  - label: uat
+    branches: [uat]
+    targetNamePrefix: environmentLabel
+    targetAccess: private
+    targetOverrides:
+      places:
+        start:
+          configuration:
+            description: UAT ENV,
+target:
+  experience:
+    configuration:
+      playableDevices: [computer]
+      enableStudioAccessToApis: true
+
+    places:
+      start:
+        file: game.rbxl
+        configuration:
+          name: Template Roblox Project
+          maxPlayerCount: 100
+          serverFill: robloxOptimized
