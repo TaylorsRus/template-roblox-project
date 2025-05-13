@@ -1,10 +1,10 @@
-column_width = 1000000000
+column_width = 155
 line_endings = "Unix"
 indent_type = "Tabs"
 indent_width = 4
 quote_style = "AutoPreferDouble"
 call_parentheses = "Always"
-collapse_simple_statement = "Always"
+collapse_simple_statement = "ConditionalOnly"
 
 [sort_requires]
 enabled = true
