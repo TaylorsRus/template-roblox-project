@@ -1,30 +1,46 @@
 {
-    "name": "TEMPLATE_NAME",
-    "emitLegacyScripts": false,
-    "tree": {
-        "$className": "DataModel",
-        "Workspace": {"$properties": {"StreamingEnabled": true}},
-        "Players": {"$properties": {"CharacterAutoLoads": true}},
-        "Lighting": {"$properties": {"GlobalShadows": true, "Technology": "Future"}},
-        "ReplicatedStorage": {
-            "$path": "src/Shared",
-            "Client": {"$path": "src/Client"},
-            "Server": {"$path": "src/Server"},
-            "Assets": {"$path": "src/Assets"},
-            "Events": {"$path": "src/Events"},
-            "Modules": {"$path": "src/Modules", "Packages": {"$path": "Packages"}},
-            "Data": {"$path": "src/Data"},
-            "Ui": {"$path": "src/Ui"}
+  "name": "TEMPLATE_NAME",
+  "emitLegacyScripts": false,
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": { "$properties": { "StreamingEnabled": true } },
+    "Players": { "$properties": { "CharacterAutoLoads": true } },
+    "Lighting": {
+      "$properties": { "GlobalShadows": true, "Technology": "Future" }
+    },
+    "ReplicatedStorage": {
+      "$path": "src/Shared",
+      "Client": { "$path": "src/Client" },
+      "Server": { "$path": "src/Server" },
+      "Assets": { "$path": "src/Assets" },
+      "Events": { "$path": "src/Events" },
+      "Modules": {
+        "$path": "src/Modules",
+        "Packages": { "$path": "Packages" }
+      },
+      "Data": { "$path": "src/Data" },
+      "Ui": { "$path": "src/Ui" },
+      "Utils": { "$path": "src/Utils" }
+    },
+    "ServerStorage": { "$path": "src/Storage" },
+    "StarterPlayer": {
+      "$properties": {
+        "CameraMinZoomDistance": 0.5,
+        "CameraMaxZoomDistance": 0.5
+      },
+      "StarterCharacterScripts": {
+        "Animate": {
+          "$className": "Script",
+          "$properties": { "RunContext": "Legacy", "Enabled": true }
         },
-        "ServerStorage": {"$path": "src/Storage"},
-        "StarterPlayer": {"$properties": {"CameraMinZoomDistance": 0.5, "CameraMaxZoomDistance": 0.5},
-            "StarterCharacterScripts": {
-                "Animate": {"$className": "Script", "$properties": {"RunContext": "Legacy", "Enabled": true}},
-                "Health": {"$className": "Script", "$properties": {"RunContext": "Legacy", "Enabled": true}}
-            },
-            "StarterPlayerScripts": {}
-        },
-        "HttpService": {"$properties": {"HttpEnabled": true}},
-        "TextChatService": {"$properties": {"ChatVersion": "TextChatService"}}
-    }
+        "Health": {
+          "$className": "Script",
+          "$properties": { "RunContext": "Legacy", "Enabled": true }
+        }
+      },
+      "StarterPlayerScripts": {}
+    },
+    "HttpService": { "$properties": { "HttpEnabled": true } },
+    "TextChatService": { "$properties": { "ChatVersion": "TextChatService" } }
+  }
 }
