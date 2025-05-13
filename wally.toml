@@ -7,4 +7,4 @@ private = true
 
 [dependencies]
 Vide = "centau/vide@0.3.1"
-UILabs = "pepeeltoro41/ui-labs@2.3.8"
+UiLabs = "pepeeltoro41/ui-labs@2.3.8"
